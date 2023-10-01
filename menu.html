@@ -8,10 +8,33 @@
   </head>
   <body>
     <header class="headerContainer">
-      <div id="headerBox">Home</div>
-      <div id="headerBox">Login</div>
-      <div id="headerBox">Create an Account</div>
+      <nav id="headerBox"><a href="">Home</a></nav>
+      <nav id="headerBox"><a href="">Login</a></nav>
+      <nav id="headerBox"><a href="">Create an Account</a></nav>
     </header>
-    <main>main body</main>
+    <main>
+      <h1>Log In</h1>
+      <div class="bodyBox">
+        <form>
+          <label for="user">Username</label><br />
+          <input
+            class="user"
+            type="text"
+            placeholder="Username"
+            name="user"
+          /><br />
+          <label for="user">Password</label><br />
+          <input
+            class="user"
+            type="text"
+            placeholder="Password"
+            name="password"
+          /><br />
+          <input type="checkbox" id="remember" name="remember" value="true" />
+          <label for="remember">Remember me</label><br />
+          <input class="user" type="submit" value="submit" />
+        </form>
+      </div>
+    </main>
   </body>
 </html>
